@@ -1,0 +1,60 @@
+*{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color:  rgba(230, 108, 20, 0.614);
+   
+
+
+}
+
+.tags ul li{
+    background-color: rgba(230, 108, 20, 0.614);
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    border-color: white;
+    padding: 1.5% 2.5%;
+    margin-right: 5.5%;
+    border-radius: 5px;
+    
+}
+.tags ul li:hover{
+    border: solid white;
+}
+/* Add this CSS rule to set the display property to flex for the container */
+
+
+/* Add any additional CSS styles as needed for image layout */
+.um a {
+    margin-right: 4%;
+    margin-left: 3%;
+  
+   
+     /* Optional: Add margins between images for spacing */
+}
+
+.um {
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+img{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    border-color: white;
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    padding: 2%;
+    margin:2%;
+
+}
+img:hover{
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+
+}
